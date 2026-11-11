@@ -1,0 +1,63 @@
+https://pilot-rp.site.lairdik.store/#serversnt="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0b0d">
+  <meta name="description" content="KARATEL TEST — игровой проект.">
+  <title>KARATEL TEST</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="#home">KARATEL <span>TEST</span></a>
+    <button class="menu-button" id="menuButton" aria-label="Открыть меню">☰</button>
+    <nav id="nav">
+      <a href="#home">Главная</a>
+      <a href="#servers">Серверы</a>
+      <a href="#download">Скачать</a>
+      <a href="#about">О проекте</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">ТВОЯ ИГРА — ТВОЯ ИСТОРИЯ</p>
+        <h1>KARATEL <span>TEST</span></h1>
+        <h2>Играй. Развивайся. Побеждай!</h2>
+        <p>Игровой проект с атмосферой Black Russia. Заходи и следи за новостями проекта.</p>
+        <a class="button" href="#servers">Наши серверы</a>
+      </div>
+    </section>
+    <section class="section" id="servers">
+      <p class="eyebrow">ВЫБЕРИ СВОЙ МИР</p>
+      <h2>Наши серверы</h2>
+      <div class="cards">
+        <article class="server-card">
+          <div class="server-icon">01</div>
+          <h3>KARATEL TEST</h3>
+          <p>Основной тестовый сервер проекта.</p>
+          <span class="status">Статус: тестирование</span>
+        </article>
+        <article class="server-card">
+          <div class="server-icon">02</div>
+          <h3>Новый сервер</h3>
+          <p>Информация о запуске появится позже.</p>
+          <span class="status muted">Скоро</span>
+        </article>
+      </div>
+    </section>
+    <section class="section download" id="download">
+      <p class="eyebrow">ANDROID · APK</p>
+      <h2>Скачать лаунчер</h2>
+      <p>Версия 16.23.0 · KARATEL TEST</p>
+      <a class="button" href="https://github.com/ohhotnik/Karatel-test/releases/latest/download/KARATEL%20TEST_16.23.0.apk">↓ Скачать APK</a>
+      <p class="download-note">Если кнопка пока не работает, значит APK ещё не добавлен в раздел Releases на GitHub.</p>
+    </section>
+    <section class="about section" id="about">
+      <p class="eyebrow">О НАШЕМ ПРОЕКТЕ</p>
+      <h2>Добро пожаловать в KARATEL TEST</h2>
+      <p>Здесь будут публиковаться новости, информация о серверах и обновлениях. Сайт адаптирован для телефонов и компьютеров.</p>
+      <a class="button secondary" href="https://github.com/ohhotnik/Karatel-test" target="_blank" rel="noopener">Наш GitHub</a>
+    </section>
+  </main>
+  <footer>© 2026 KARATEL TEST. Неофициальный игровой проект.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
