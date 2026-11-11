@@ -1,0 +1,24 @@
+KARATEL TEST — сайт с кнопкой скачивания лаунчера
+
+Файлы:
+- index.html — страница сайта
+- style.css — оформление
+- script.js — мобильное меню
+
+Публикация сайта:
+1. Загрузите index.html, style.css и script.js в корень репозитория ohhotnik/Karatel-test.
+2. Откройте Settings → Pages.
+3. Выберите Deploy from a branch, ветку main и папку /(root), нажмите Save.
+
+Добавление APK:
+1. Откройте репозиторий ohhotnik/Karatel-test.
+2. Перейдите в Releases → Create a new release.
+3. Создайте тег, например v16.23.0.
+4. В блок Attach binaries загрузите исходный файл с точным именем:
+   KARATEL TEST_16.23.0.apk
+5. Опубликуйте Release.
+
+Кнопка на сайте ведёт на:
+https://github.com/ohhotnik/Karatel-test/releases/latest/download/KARATEL%20TEST_16.23.0.apk
+
+Важно: кнопка заработает после публикации APK в GitHub Releases с указанным именем.
